@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.aldui.chattest.MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:id="@+id/msgText"
+        android:visibility="gone"
+        android:layout_marginEnd="38dp"
+        android:layout_below="@+id/strmView"
+        android:layout_toStartOf="@+id/sendbtn" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/msgList"
+        android:visibility="gone"
+        android:layout_marginRight="77dp"
+        android:layout_marginTop="206dp"
+        android:layout_marginStart="117dp"
+        android:layout_below="@+id/sendbtn"
+        android:layout_toEndOf="@+id/msgText" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendbtn"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="14dp" />
+
+    <TextureView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/strmView"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

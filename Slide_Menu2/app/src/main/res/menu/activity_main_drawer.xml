@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/curStreams"
+            android:title="Текущие трансляции" />
+        <item
+            android:id="@+id/myStream"
+            android:title="Своя трансляция" />
+        <item
+            android:id="@+id/mySubs"
+            android:title="Подписки" />
+        <item
+            android:id="@+id/Exit"
+            android:title="Выход" />
+    </group>
+
+
+    <item
+        android:id="@+id/shareUs"
+        android:title="Свяжитесь с нами" />
+
+</menu>
